@@ -1,0 +1,19 @@
+[project]
+name = "sqli-lab"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "liaozixin", email = "1571155318@qq.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+sqli-lab = "sqli_lab:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
